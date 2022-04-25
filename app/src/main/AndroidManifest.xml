@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyfirstApplication">
         <activity
+            android:name=".display_slider"
+            android:parentActivityName=".MainActivity" /> // sets hierarchy and enables return button in app bar
+        <activity
             android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity" /> //this tells the system that this is not the main activity
-                                                // aka home screen and that a "back" button is needed in the app bar
+            android:parentActivityName=".MainActivity" /> // sets hierarchy and enables return button in app bar
         <activity
             android:name=".MainActivity"
             android:exported="true">

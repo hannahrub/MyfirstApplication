@@ -11,14 +11,14 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected void onCreate(Bundle savedInstanceState) { // init activity
+        super.onCreate(savedInstanceState); // gives former state (can be used to reestablish former state)
+        setContentView(R.layout.activity_main); // make it the content of the activity
     }
 
     /** Called when the user taps the Send button */
     public void sendMessage(View view) { // has to be void to be recognized by button as callable function, has to have view (rectangular interface building block) argument
-       /*to use this function select the button object an set it in the "on click" property*/
+        /*to use this function select the button object an set it in the "on click" property*/
 
         // Do something in response to button
         Intent intent = new Intent(this, DisplayMessageActivity.class); //Intent is an object that provides runtime binding between separate components, such as two activities.
@@ -36,8 +36,13 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
         // The startActivity() method starts an instance of the DisplayMessageActivity that's specified by the Intent.
-
-
     }
+
+    /** Called when the user taps the access slider button*/
+    public void sliderMenu(View view) {
+        Intent intent = new Intent(this, display_slider.class);
+        startActivity(intent);
+        }
+
 
 }
