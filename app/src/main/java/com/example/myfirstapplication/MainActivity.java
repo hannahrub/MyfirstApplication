@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     /** Called when the user taps the access slider button*/
     public void sliderMenu(View view) {
         // always remember to set the button.onClick to the corresponding activity!!!!
-        Intent intent = new Intent(this, display_slider.class);
+        Intent intent = new Intent(this, display_sliderActivity.class);
         startActivity(intent);
         }
 

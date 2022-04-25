@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyfirstApplication">
         <activity
-            android:name=".display_slider"
+            android:name=".display_sliderActivity"
             android:parentActivityName=".MainActivity" /> // sets hierarchy and enables return button in app bar
         <activity
             android:name=".DisplayMessageActivity"
