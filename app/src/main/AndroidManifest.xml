@@ -13,7 +13,7 @@
             android:name=".DisplayDropdownActivity"
             android:exported="false" />
         <activity
-            android:name=".display_sliderActivity"
+            android:name=".displaySliderActivity"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DisplayMessageActivity"

@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">MyfirstApplication</string>
+
     <string name="edit_message">enter a message</string>
     <string name="button_send">Send</string>
     <string name="button_slider">access slider</string>
     <string name="currentBarValue">move the slider</string>
     <string name="button_dropdown">access dropdown</string>
+    <string name="dropdown_description">dropdown Content</string>
+
+    <string-array name="menuItemsArray">
+        <item>1</item>
+        <item>22</item>
+        <item>J333</item>
+        <item>4444</item>
+        <item>55555</item>
+    </string-array>
 </resources>

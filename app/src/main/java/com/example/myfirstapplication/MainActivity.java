@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         // intent constructor takes two parameters, a Context and a Class.
         // The Class parameter of the app component, to which the system delivers the Intent, is, in this case, the activity to start.
 
-        EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
+        EditText editText = findViewById(R.id.editTextTextPersonName);
         String message = editText.getText().toString();
 
         intent.putExtra(EXTRA_MESSAGE, message);
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     /** Called when the user taps the access ...  button*/
     public void sliderMenu(View view) {
         // always remember to set the button.onClick to the corresponding activity!!!!
-        Intent intent = new Intent(this, display_sliderActivity.class);
+        Intent intent = new Intent(this, displaySliderActivity.class);
         startActivity(intent);
         }
 
