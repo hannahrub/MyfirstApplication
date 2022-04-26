@@ -3,5 +3,6 @@
     <string name="edit_message">enter a message</string>
     <string name="button_send">Send</string>
     <string name="button_slider">access slider</string>
-    <string name="currentBarValue">current Value: 0</string>
+    <string name="currentBarValue">move the slider</string>
+    <string name="button_dropdown">access dropdown</string>
 </resources>
