@@ -39,12 +39,16 @@ public class MainActivity extends AppCompatActivity {
         // The startActivity() method starts an instance of the DisplayMessageActivity that's specified by the Intent.
     }
 
-    /** Called when the user taps the access slider button*/
+    /** Called when the user taps the access ...  button*/
     public void sliderMenu(View view) {
         // always remember to set the button.onClick to the corresponding activity!!!!
         Intent intent = new Intent(this, display_sliderActivity.class);
         startActivity(intent);
         }
 
+    public void dropdownMenu(View view){
+        Intent intent = new Intent(this, DisplayDropdownActivity.class);
+        startActivity(intent);
+    }
 
 }

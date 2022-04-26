@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyfirstApplication">
         <activity
+            android:name=".DisplayDropdownActivity"
+            android:exported="false" />
+        <activity
             android:name=".display_sliderActivity"
-            android:parentActivityName=".MainActivity" /> // sets hierarchy and enables return button in app bar
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity" /> // sets hierarchy and enables return button in app bar
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
