@@ -17,14 +17,11 @@ public class display_sliderActivity extends AppCompatActivity {
         SeekBar seekBar = findViewById(R.id.first_seekBar);
         TextView valueText = findViewById(R.id.displayCurrentValue);
 
-        /*this sets the max value for the seekbar*/
-        seekBar.setMax(150); // 150 maximum value for the Seek bar
-
         // init the listeners and stuff
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
-                valueText.setText(progress);
+                valueText.setText(String.valueOf(progress));
             }
 
             @Override
