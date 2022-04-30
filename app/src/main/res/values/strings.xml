@@ -7,6 +7,8 @@
     <string name="currentBarValue">move the slider</string>
     <string name="button_dropdown">access dropdown</string>
     <string name="dropdown_description">dropdown Content</string>
+    <string name="button_scrolling">access scrolling</string>
+    <string name="basic_button">normal button</string>
 
     <string-array name="menuItemsArray">
         <item>1</item>

@@ -7,6 +7,8 @@
         <entry key="app/src/main/res/layout/activity_display_message.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_display_slider.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.16203505771697307" />
+        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.16203505771697307" />
       </map>
     </option>
   </component>

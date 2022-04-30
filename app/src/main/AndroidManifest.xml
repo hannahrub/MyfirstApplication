@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyfirstApplication">
         <activity
+            android:name=".ScrollingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".DisplayDropdownActivity"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".displaySliderActivity"
             android:parentActivityName=".MainActivity" />

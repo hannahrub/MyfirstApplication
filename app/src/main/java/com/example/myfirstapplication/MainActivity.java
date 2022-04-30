@@ -51,4 +51,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void letsScroll(View view){
+        Intent intent = new Intent(this, ScrollingActivity.class);
+        startActivity(intent);
+    }
+
 }
