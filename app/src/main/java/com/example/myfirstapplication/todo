@@ -1,0 +1,5 @@
+todo:
+
+ - research if the button onClick attribute is to be replaced by the OnClickListener Interface that would have to be implememted seperately
+ - find possibility to "save" input data when exiting an activity via the appbar
+ - save input data in some kind of Global class with global variables?
